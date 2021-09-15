@@ -13,55 +13,88 @@ I am the Professor for Computational Behavioral and Social Sciences the Graz Uni
 
 ## Course Contents
 
-The course is organized in five blocks with several topics each. Each block has one or more exercises for you to apply what you learned in the block. In exercises, you collect your own data and try to answer questions about human behavior and online phenomena. The online materials do not contain the solutions to the exercises, but if you are stuck or want to start from an easier point, in the github folder of the exercise you can find a version of the exercise with hints.
+The course is organized in XX sessions. Each session contains a practical part with exercises for you to apply what you learned. From the third week, the practice session will consist of a discussion of solutions to the exercise corresponding to the previous session. In exercises, you collect your own data and try to answer questions about human behavior and online phenomena. The online materials do not contain the solutions to the exercises, but if you are stuck or want to start from an easier point, in the github folder of the exercise you can find a version of the exercise with hints.
 
-1. **Introduction to Computational Social Systems**  
-1.1. [What is Social Data Science?](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/011_IntroductionToSDS/Introduction.html)  
-1.2. [SDS Story: Google Flu Trends](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/012_GoogleFluTrends/GoogleFluTrends.html)  
-1.3. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/013_TemporalOrientation/TemporalOrientationGtrends.html)  
-1.4. [Measuring correlation](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/014_Correlation/MeasuringCorrelation.html)  
-1.5. [R crash course](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/015_RCrashCourse/RCrashCourse.html) -- [[R crash course github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/1_Introduction/015_RCrashCourse)  
-1.6. [Accessing the World Development Indicators from R](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/016_WDI/WDI.html)  
-1.7. [Google Trends data in R  ](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/017_gtrendsR/gtrendsR.html)  
-1.8. [Exercise: Future orientation and economic development](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/018_FOIExercise/GDP_FOI.html) -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/1_Introduction/018_FOIExercise)
+1. **Introduction to Computational Social Systems**  (7.10.2021)  
+1.1. [**Computational Social Systems**]()  
+1.2. [Social Data Science]()  
+1.3. [**Social Computing**]()  
+1.4. [Google Flu Trends]()  
+1.5. [Tutorial session: R crash course]()) -- [[R crash course github folder]]()  
 
-2. **Social dynamics**  
-2.1. [Social Impact Theory](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/021_SocialImpactTheory/SIT.html)  
-2.2. [The Simmel Effect](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/022_SimmelEffect/SimmelEffect.html)  
-2.3. [SDS Story: Baby name trends](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/023_BabyNameTrends/BabyNameTrends.html)  
-2.4. [Linear regression](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/024_LinearRegression/LinearRegression.html)  
-2.5. [Bootstrapping](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/025_Bootstrapping/Bootstrapping.html) -- [[Github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/2_SocialDynamics/025_Bootstrapping)  
-2.6. [Data wrangling with dplyr](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/026_dplyr/dplyr.html) -- [[Tutorial github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/2_SocialDynamics/026_dplyr)  
-2.7. [The Twitter API in R](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/027_rtweet/rtweet.html) -- [[Tutorial github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/2_SocialDynamics/027_rtweet)  
-2.8. [Exercise: Division of impact on Twitter](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/028_SITTwitter/SIT_Twitter.html) -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/2_SocialDynamics/028_SITTwitter)
-	
-3. **Computational Affective Science**  
-3.1. [Measuring emotions](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/031_MeasuringEmotions/Emotions.html)  
-3.2. [Unsupervised sentiment analysis](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/032_UnsupervisedSentimentAnalysis/UnsupervisedSentimentAnalysis.html)  
-3.3. [SDS Story: Emotions in pagers after 9/11](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/033_PagerEmotions/PagerEmotions.html)  
-3.4. [Supervised sentiment analysis](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/034_SupervisedSentimentAnalysis/SupervisedSentimentAnalysis.html)  
-3.5. [Running unsupervised sentiment analysis in R](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/035_UnsupervisedToolsR/UnsupervisedToolsR.html)  
-3.6. [Training supervised sentiment analysis in R](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/036_SupervisedTextClassification/SupervisedTextClassification.html)  
-3.7. [Exercise: Evaluating sentiment analysis methods](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/037_SentimentEvaluation/SentimentEvaluation.html)  -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/3_Affect/037_SentimentEvaluation)  
-3.8. [Exercise: Twitter sentiment and retweeting](https://dgarcia-eu.github.io/SocialDataScience/3_Affect/038_TwitterSentiment/Twitter_Sentiment.html) -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/3_Affect/038_TwitterSentiment)
+- 14.10.2021: Additional lecture at Computer Science Faculty Day
 
-4. **Social network analysis**  
-4.1. [Introduction to social networks](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/041_SNAIntro/SNAIntro.html)  
-4.2. [The Friendship paradox](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/042_FriendshipParadox/FriendshipParadox.html)  
-4.3. [SDS story: sampling opinions on Twitter](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/043_TwitterOpinions/TwitterOpinions.html)  
-4.4. [Centrality in social networks](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/044_Centrality/Centrality.html)  
-4.5. [Handling network data in R](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/045_Tidygraph/tidygraph.html)  
-4.6. [Twitter network data](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/047_TwitterNetwork/TwitterNetwork.html)  
-4.7. [Exercise: Swiss politicians on Twitter](https://dgarcia-eu.github.io/SocialDataScience/4_SNA/048_PoliticiansNetwork/PoliticiansNetwork) -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/4_SNA/048_PoliticiansNetwork)  
+2. **Search Behavior** (21.10.2021)  
+2.1. [Measuring temporal orientation with Google Trends]()  
+2.2. [Measuring correlation]()  
+2.3. [Accessing the World Development Indicators from R]()  
+2.4. [Google Trends data in R ]()  
+2.5. [Tutorial session: Data wrangling with dplyr]() -- [[Tutorial github folder]]()  
+- [Exercise: Future orientation and economic development]() -- [[Exercise github folder]]()
 
-5. **Social network phenomena**  
-5.1. [Social resilience](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/051_SocialResilience/SocialResilience.html)  
-5.2. [SDS story: the death of social networks](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/052_SocialNetworkDeath/SocialNetworkDeath.html)  
-5.3. [Structural holes and communities](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/053_StructuralHoles/StructuralHoles.html)  
-5.4. [Assortativity](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/054_Assortativity/Assortativity.html)  
-5.5. [Permutation tests](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/056_PermutationTests/PermutationTests)   
-5.6. [Network analysis in R](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/057_Tidygraph2/tidygraph2.html)  
-5.7. [Exercise: Assortativity among Swiss politicians on Twitter](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/058_PoliticianAssortativity/PoliticianAssortativity.html) -- [[Exercise github folder]](https://github.com/dgarcia-eu/SocialDataScience/tree/master/5_SocialNetworkPhenomena/058_PoliticianAssortativity)  
+3. **Social Trends** (28.10.2021)  
+3.1. [Social Trends: The Simmel Effect]()  
+3.2  [**Online Social Trends**]()  
+3.3. [Old Big Data: Baby name trends]()  
+3.4. [Linear regression]()  
+- [**Exercise: The Twitter API in R**]() -- [[Exercise github folder]]()  
+
+4. **Social Impact** (4.11.2021)  
+4.1. [Social Impact Theory]()  
+4.2. [**Online Social Influence**]()  
+4.3. [Bootstrapping]() -- [[Github folder]]()  
+- [Exercise: Division of impact on Twitter]() -- [[Exercise github folder]]()
+
+5. **Social Media Text Analysis** (11.11.2021)  
+5.1. [Measuring emotions]()  
+5.2. [Unsupervised sentiment analysis]()  
+5.3. [Emotions in pagers after 9/11]()  
+- [**Exercise: Running unsupervised sentiment analysis in R**]() -- [[Exercise github folder]]()  
+
+6. **Supervised Sentiment Analysis** (18.11.2021)  
+6.1. [Evaluating sentiment analysis]()  
+6.2. [Supervised sentiment analysis]()  
+6.3. [Sentiment in social media]()  
+- [Exercise: Evaluating sentiment analysis methods]()  -- [[Exercise github folder]]()  
+
+7. **Social network analysis** (25.11.2021)  
+7.1. [Introduction to social networks]()  
+7.2. [The Friendship paradox]()  
+7.3. [**Social media data bias**]()  
+- [**Handling network data in R**]() -- [[Exercise github folder]]()  
+
+8. **Centrality in social networks** (2.12.2021)  
+8.1. [Centrality and importance]()  
+8.2. [**Limits to degree: Dunbar's number**]()  
+8.3. [Twitter network data]()  
+- [Exercise: Swiss politicians on Twitter]() -- [[Exercise github folder]]())  
+
+9. **Social resilience of online communities** (9.12.2021)  
+9.1. [The death of social networks]()  
+9.2. [**Social resilience**]()  
+9.3. [**Coreness centrality**]()  
+- [**Exercise: Network analysis in R**]() -- [[Exercise github folder]]())
+
+10. **Online social network structures** (16.12.2021)  
+10.1. [Structural holes and communities]()  
+10.2. [Assortativity]()  
+10.3. [Permutation tests]()   
+- [Exercise: Assortativity among Swiss politicians on Twitter]() -- [[Exercise github folder]])  
+
+11. **Societal issues**  (13.1.2022)  
+11.1 [Privacy in the digital society]()  
+11.2 [Personalization and discrimination]()  
+11.3 [Manipulation]()  
+- Project pitches
+
+12. **Ethical and scientific issues** (20.1.2022)  
+12.1 [The ethics of social media research]()  
+12.2 [Representation issues]()  
+12.3 [Measurement issues]()  
+- Project feedback
+
+13. **Project presentations** (27.1.2022)  
+
 
 ## Where to access materials
 
