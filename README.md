@@ -20,54 +20,54 @@ The course is organized in 13 sessions. Each session contains a practical part w
 1.2. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience)  
 1.3. Social Computing  
 1.4. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends)  
-- [Tutorial session: R crash course](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial Github folder](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)
+- [Tutorial session: R crash course](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)
 
 **14.10.2021: Supplementary lecture at Computer Science Faculty Day**
 
 2. **Search Behavior** (21.10.2021)  
-2.1. Measuring temporal orientation with Google Trends   
-2.2. Measuring correlation  
-2.3. Accessing the World Development Indicators from R  
-2.4. Google Trends data in R  
-2.5. Tutorial session: Data wrangling with dplyr 
-- Exercise: Future orientation and economic development
+2.1. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/TemporalOrientationGtrends.html)     
+2.2. [Google Trends data in R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/gtrendsR.html)   
+2.3. [Accessing the World Development Indicators from R](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/WDI.html)   
+2.4. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/MeasuringCorrelation.html)   
+- [Tutorial session: Data wrangling with dplyr](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/025_dplyrTutorial/dplyr.html) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/02_Search/025_dplyrTutorial)  
+- [Week exercise: Future orientation and economic development](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/026_FOIExercise/GDP_FOI.html) -- [Exercise resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/02_Search/026_FOIExercise) 
 
 3. **Social Trends** (28.10.2021)  
 3.1. Social Trends: The Simmel Effect  
 3.2  Online Social Trends  
 3.3. Old Big Data: Baby name trends  
 3.4. Linear regression  
-- Exercise: The Twitter API in R  
+- Week exercise: The Twitter API in R  
 
 4. **Social Impact** (4.11.2021)  
 4.1. Social Impact Theory  
 4.2. Online Social Influence  
 4.3. Bootstrapping  
-- Exercise: Division of impact on Twitter
+- Week exercise: Division of impact on Twitter
 
 5. **Social Media Text Analysis** (11.11.2021)  
 5.1. Measuring emotions  
 5.2. Unsupervised sentiment analysis  
 5.3. Emotions in pagers after 9/11  
-- Exercise: Running unsupervised sentiment analysis in R
+- Week exercise: Running unsupervised sentiment analysis in R
 
 6. **Supervised Sentiment Analysis** (18.11.2021)  
 6.1. Evaluating sentiment analysis  
 6.2. Supervised sentiment analysis  
 6.3. Sentiment in social media  
-- Exercise: Evaluating sentiment analysis methods
+- Week exercise: Evaluating sentiment analysis methods
 
 7. **Social network analysis** (25.11.2021)  
 7.1. Introduction to social networks  
 7.2. The Friendship paradox  
 7.3. Social media data bias  
-- Exercise: Handling network data in R
+- Week exercise: Handling network data in R
 
 8. **Centrality in social networks** (2.12.2021)  
 8.1. Centrality and importance  
 8.2. Limits to degree: Dunbar's number  
 8.3. Twitter network data  
-- Exercise: Swiss politicians on Twitter  
+- Week exercise: Swiss politicians on Twitter  
 
 9. **Social resilience of online communities** (9.12.2021)  
 9.1. The death of social networks  
@@ -79,7 +79,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 10.1. Structural holes and communities  
 10.2. Assortativity  
 10.3. Permutation tests   
-- Exercise: Assortativity among Swiss politicians on Twitter  
+- Week exercise: Assortativity among Swiss politicians on Twitter  
 
 11. **Societal issues**  (13.1.2022)  
 11.1 Privacy in the digital society  
@@ -103,4 +103,4 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 ## Course grading
 
-The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (deadline 10.11.2021) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
+The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (deadline 10.11.2021) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
