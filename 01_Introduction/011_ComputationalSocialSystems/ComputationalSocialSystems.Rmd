@@ -1,0 +1,44 @@
+---
+title: "Computational Social Systems"
+subtitle: "Foundations of Computational Social Systems"
+author: "David Garcia and Jana Lasser, 2021"
+output: html_document
+---
+
+### The Digital Society
+
+![](DigitalSociety.png)
+**[definition and references]**
+
+Algorithmically-infused societies:
+https://www.nature.com/articles/s41586-021-03666-1
+
+### What are Computational Social Systems?
+
+![](ComputationalSocialSystems.png)
+
+Systems in which humans and machines interact through Information and Communication Technologies (ICT).
+**[Revise definition, more info]**
+
+### New social phenomena
+
+-> Social Computing
+examples: Online inequality, AI bias, psychology-informed recommender systems, online job markets, the sharing economy
+
+### New social data
+
+-> Social Data Science
+examples: social media, search trends, call records, videogame data
+
+### Psychology example: Mood oscillations on Twitter
+https://www.science.org/doi/full/10.1126/science.1202775
+
+### Sociology example: Gender bias in language models
+https://www.science.org/doi/10.1126/science.aal4230
+
+### Business example: Understanding flash crashes
+https://www.nature.com/articles/srep02627
+
+### Law example: Mapping legal influence
+https://academic.oup.com/ahr/article/123/1/132/4840258
+
