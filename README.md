@@ -17,12 +17,12 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 1. **Introduction to Computational Social Systems**  (7.10.2021)  
 1.1. Computational Social Systems  
-1.2. Social Data Science  
+1.2. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience)  
 1.3. Social Computing  
-1.4. Google Flu Trends  
-1.5. Tutorial session: R crash course
+1.4. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends)  
+- [Tutorial session: R crash course](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial Github folder](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)
 
-- 14.10.2021: Additional lecture at Computer Science Faculty Day
+**14.10.2021: Supplementary lecture at Computer Science Faculty Day**
 
 2. **Search Behavior** (21.10.2021)  
 2.1. Measuring temporal orientation with Google Trends   
@@ -100,3 +100,7 @@ The course is organized in 13 sessions. Each session contains a practical part w
 
 - Handouts, codes, and data can be found on the [Github repository of the course](https://github.com/dgarcia-eu/FoundationsOfCSS).
 - Students at TU Graz can access the [course at TU Graz Online]() to get additional information, watch videos, and to participate in the forums and quizzes.
+
+## Course grading
+
+The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points can be achieved by delivering two optional exercise solutions: "Division of impact on Twitter" (deadline 10.11.2021) and "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
