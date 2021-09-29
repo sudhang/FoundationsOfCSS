@@ -5,7 +5,7 @@ output: html_document
 ---
 Welcome to the R tutorial of Foundations of Computational Social Sytems! Exercise sessions and self-study tasks will help you to apply the knowledge learned in class and gain experience.
 
-# Introduction to R
+# Part 1: R basics
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. In this course we will be using R in the RStudio environtment to perform our exercises. Exercise sheets and solutions will be R Markdown documents that combine and format text, code, and code output.
 
@@ -29,7 +29,7 @@ Crash course overview:
 - Plotting and summary statistics
 
 
-# 0. Getting help
+## 0. Getting help
 
 If you don't know what a function does, try searching for help wiht "?"
 ```{r}
@@ -41,7 +41,7 @@ If you don't know how to do something, your fellow programmer is your friend. Fo
 https://stats.stackexchange.com/questions/157661/how-to-calculate-mean-median-mode-std-dev-from-distribution
 
 
-# 1. Simple operations
+## 1. Simple operations
 
 You can use either "<-" or "=" to assign a value to a variable.
 
@@ -128,7 +128,7 @@ x/2
 ```
 
 
-# 2. Control flow
+## 2. Control flow
 
 R is a programming language after all, how do we check for conditions or go through iterations?
 
@@ -179,8 +179,9 @@ for(i in seq(1,50))
 }
 ```
 
+## Part 2: Reading and visualizing data
 
-# 3. Reading data
+## 3. Reading data
 
 Data is essential for our tasks.  A table can be easily imported from local files csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use a survey result stored in a .csv file:
 
@@ -207,7 +208,7 @@ SurveyDF <- read.csv("TutorialHeightsSurvey.dat", header = TRUE, sep = "\t", quo
 head(SurveyDF,n=7)
 ```
 
-# 4. Data frames
+## 4. Data frames
 
 Data frames are a general way to store multimodal data in R. They are composed of rows with one value in each column.
 ```{r}
@@ -266,7 +267,7 @@ df[,1]
 SurveyDF$Height[SurveyDF$Gender == "Female"]
 ```
 
-# 5. Plotting and statistics: How tall are we?
+## 5. Plotting and statistics: How tall are we?
 
 We can produce a simple scatterplot of the data using the plot() function
 ```{r}
@@ -326,8 +327,18 @@ sd(SurveyDF$Age[SurveyDF$Gender=="female"], na.rm=TRUE)
 ```
 
 
+**5.3) Load the data from the file BMI-steps.csv. Is there a correlation between BMI and steps? Is it different for women and men? Do you notice anything else?**
+```{r, fig.width=6, fig.height=6}
+df <- read.csv("BMI-steps.csv")
+cor(df$steps, df$bmi)
+cor(df$steps[df$gender=="man"], df$bmi[df$gender=="man"])
+cor(df$steps[df$gender=="woman"], df$bmi[df$gender=="woman"])
+plot(df$steps, df$bmi) 
+#Data from https://www.biorxiv.org/content/10.1101/2020.07.30.228916v1.full
+```
 
-# 6. Sampling and histograms
+
+## 6. Sampling and histograms
 
 Now we will learn Gaussian distribution and plot it in R. The rnorm function lets you sample values from a normal distribution, and hist shows a histogram of values.
 
@@ -359,7 +370,7 @@ X <- runif(n=1000, min=-10, max=10)
 hist(X)
 ```
 
-# 7. To practice more...
+## 7. To practice more...
 
 **7.1) Print the Fibonacci sequence up to the last number below 100.**
 
@@ -405,18 +416,7 @@ vignette("auth", package = "rtweet")
 ```
 
 
-**7.5) Load the data from the file BMI-steps.csv. Is there a correlation between BMI and steps? Is it different for women and men? Do you notice anything else?**
-```{r, fig.width=6, fig.height=6}
-df <- read.csv("BMI-steps.csv")
-cor(df$steps, df$bmi)
-cor(df$steps[df$gender=="man"], df$bmi[df$gender=="man"])
-cor(df$steps[df$gender=="woman"], df$bmi[df$gender=="woman"])
-plot(df$steps, df$bmi) 
-#Data from https://www.biorxiv.org/content/10.1101/2020.07.30.228916v1.full
-```
-
-
-# 8. To learn more about R and Markdown
+# 3. To learn more about R and Markdown
 
 - Now you have learned the very basics of R. Fell free to play with the program a bit more. If you need more information on a function in regards to what it does and what input it takes, simply type *help(functionName)* in the console and you will get a detailed discription. A good resource to learn more about R can be found here:   <http://www.cyclismo.org/tutorial/R/>
 

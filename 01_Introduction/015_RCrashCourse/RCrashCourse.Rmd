@@ -6,7 +6,7 @@ output: html_document
 
 Welcome to the R tutorial of Foundations of Computational Social Sytems! Exercise sessions and self-study tasks will help you to apply the knowledge learned in class and gain experience.
 
-# Introduction to R
+# Part 1: R basics
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. In this course we will be using R in the RStudio environment to perform our exercises. Exercise sheets and solutions will be R Markdown documents that combine and format text, code, and code output.
 
@@ -30,9 +30,9 @@ Crash course overview:
 - Plotting and summary statistics
 
 
-# 0. Getting help
+## 0. Getting help
 
-If you don't know what a function does, try searching for help wiht "?"
+If you don't know what a function does, try searching for help with "?"
 ```{r}
 ? mean
 ```
@@ -42,7 +42,7 @@ If you don't know how to do something, your fellow programmer is your friend. Fo
 https://stats.stackexchange.com/questions/157661/how-to-calculate-mean-median-mode-std-dev-from-distribution
 
 
-# 1. Simple operations
+## 1. Simple operations
 
 You can use either "<-" or "=" to assign a value to a variable.
 
@@ -106,14 +106,12 @@ Your turn:
 
 **1.1) We create a vector V with the even numbers between 1 and 10. Show its content.**
 ```{r}
-V <- seq(by =2, from=2, to =10)
-V
+#Your code here
 ```
 
 **1.2) We look at its third entry and test if it is larger than 3.**
 ```{r}
-V[3] > 3
-
+#Your code here
 ```
 
 **1.3) Reverse its order and divide each of its entries by 2.**
@@ -127,7 +125,7 @@ V[3] > 3
 ```
 
 
-# 2. Control flow
+## 2. Control flow
 
 R is a programming language after all, how do we check for conditions or go through iterations?
 
@@ -170,7 +168,9 @@ Your turn:
 ```
 
 
-# 3. Reading data
+## Part 2: Reading and visualizing data
+
+## 3. Reading data
 
 Data is essential for our tasks.  A table can be easily imported from local files csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use a survey result stored in a .csv file:
 
@@ -197,7 +197,7 @@ SurveyDF <- read.table(file = "TutorialHeightsSurvey.dat", header=T, sep = "\t",
 head(SurveyDF,n=7)
 ```
 
-# 4. Data frames
+## 4. Data frames
 
 Data frames are a general way to store multimodal data in R. They are composed of rows with one value in each column.
 ```{r}
@@ -253,10 +253,9 @@ Your turn:
 **4.2) Print the heights of the rows in SurveyDF of gender "female".**
 ```{r}
 SurveyDF$Height[SurveyDF$Gender=="female"]
-
 ```
 
-# 5. Plotting and statistics: How tall are we?
+## 5. Plotting and statistics: How tall are we?
 
 We can produce a simple scatterplot of the data using the plot() function
 ```{r}
@@ -313,8 +312,13 @@ Your turn:
 ```
 
 
+**5.3) Load the data from the file BMI-steps.csv. Is there a correlation between BMI and steps? Is it different for women and men? Do you notice anything else?**
+```{r, eval=FALSE}
+#Your code here
+```
 
-# 6. Sampling and histograms
+
+## 6. Sampling and histograms
 
 Now we will learn Gaussian distribution and plot it in R. The rnorm function lets you sample values from a normal distribution, and hist shows a histogram of values.
 
@@ -345,7 +349,7 @@ Your turn:
 #Your code here
 ```
 
-# 7. To practice more...
+## 7. To practice more...
 
 **7.1) Print the Fibonacci sequence up to the last number below 100.**
 
@@ -372,14 +376,7 @@ library(rtweet)
 vignette("auth", package = "rtweet")
 ```
 
-
-**7.5) Load the data from the file BMI-steps.csv. Is there a correlation between BMI and steps? Is it different for women and men? Do you notice anything else?**
-```{r, eval=FALSE}
-#Your code here
-```
-
-
-# 8. To learn more about R and Markdown
+# 3. To learn more about R and Markdown
 
 - Now you have learned the very basics of R. Fell free to play with the program a bit more. If you need more information on a function in regards to what it does and what input it takes, simply type *help(functionName)* in the console and you will get a detailed discription. A good resource to learn more about R can be found here:   <http://www.cyclismo.org/tutorial/R/>
 
