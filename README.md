@@ -20,9 +20,9 @@ The main lecture takes place on Thursdays at 14:15 (sharp) in lecture room i3 in
 The course is organized in 13 sessions. Each session contains a practical part with exercises for you to apply what you learned. From the third week, the practice session will consist of a discussion of solutions to the exercise corresponding to the previous session. In exercises, you collect your own data and try to answer questions about human behavior and online phenomena. The online materials do not contain the solutions to the exercises, but if you are stuck or want to start from an easier point, in the github folder of the exercise you can find a version of the exercise with hints.
 
 1. **Introduction to Computational Social Systems**  (7.10.2021)  
-1.1. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/ComputationalSocialSystems)  
-1.2. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience)    
-1.3. Social Computing  
+1.1. Course administration and information  
+1.2. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_ComputationalSocialSystems/ComputationalSocialSystems)  
+1.3. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience)    
 1.4. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends)  
 - [Tutorial session: R crash course part 1](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/015_RCrashCourse/RCrashCourse) -- [Tutorial resources](https://downgit.github.io/#/home?url=https://github.com/dgarcia-eu/FoundationsOfCSS/tree/master/01_Introduction/015_RCrashCourse)  
 *(Please install RStudio before the tutorial takes place)*
