@@ -13,7 +13,7 @@ I am the Professor for Computational Behavioral and Social Sciences the Graz Uni
 
 ## Place and time
 
-The main lecture takes place on Thursdays at 14:15 (sharp) in lecture room i3 in the Inffeldgasse campus of TU Graz. The lecture is followed by one exercise session in the same room. An additional time slot for another exercise group is available on Tuesdays at 13:00 (also sharp) in room HS II at Rechbauerstrasse 12, where the same exercise as the previous week is discussed. Lectures will be streamed and recorded. When attending in person, proof of 3G status is required and seating space is limited depending on varying policies. Seating will be given in a first-come-first-served basis each session and students that do not fit will have to follow the lecture online in another place.
+The main lecture takes place on Thursdays at 14:15 (sharp) in lecture room i3 in the Inffeldgasse campus of TU Graz. **The lecture is followed by one exercise session in the same room.** An additional time slot for another **exercise group is available on Tuesdays at 13:00** (also sharp) in room HS II at Rechbauerstrasse 12, where the same exercise as the previous week is discussed. Lectures will be streamed and recorded. When attending in person, proof of 3G status is required and seating space is limited depending on varying policies. Seating will be given in a first-come-first-served basis each session and students that do not fit will have to follow the lecture online in another place.
 
 ## Course Contents
 
