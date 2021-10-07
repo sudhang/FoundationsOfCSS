@@ -14,7 +14,6 @@ output:
       ratio: "16:9"
 ---
 
-
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 #This block contains the theme configuration for the CSS lab slides style
 library(xaringanthemer)
@@ -80,7 +79,7 @@ Email: garcia@csh.ac.at
 
 - 7.10.2021: **Introduction to Computational Social Systems**
   - Tutorial session: R crash course part 1 *(Please install RStudio before)*
-- 14.10.2021, 5pm: Supplementary lecture at **Computer Science Faculty Day**
+- 14.10.2021, 5:15: Supplementary lecture at **Computer Science Faculty Day**, TU Graz Aula
 - 21.10.2021: **Search Behavior**
   - Tutorial session: R crash course part 2
 - 28.10.2021: **Social Trends**
@@ -90,12 +89,11 @@ Email: garcia@csh.ac.at
   - Week exercise: The Twitter API in R
 - 11.11.2021: **Social Media Text Analysis**
   - Week exercise: Division of impact on Twitter
-- 18.11.2021: **Supervised Sentiment Analysis**
-  - Week exercise: Running unsupervised sentiment analysis in R
 
 ---
-# Course topics (II)
 
+- 18.11.2021: **Supervised Sentiment Analysis**
+  - Week exercise: Running unsupervised sentiment analysis in R
 - 25.11.2021: **Social network analysis** 
   - Week exercise: Evaluating sentiment analysis methods
 - 2.12.2021: **Centrality in social networks** 
@@ -111,6 +109,12 @@ Email: garcia@csh.ac.at
 - 27.1.2022: **Project presentations** 
 
 ---
+## Inauguration of CSS programme
+
+- Monday Oct 11th. Doors open at 16:30, start at 17:15. Socializing afterwards!
+
+.center[![:scale 75%](Inauguration.png)]
+---
 
 # Time, place, online
 
@@ -123,9 +127,10 @@ Email: garcia@csh.ac.at
 
 Group 2 covers the same content as group 1 the previous Thursday.
 
-Handouts, codes, and data can be found on the Github repository of the course. Exercises are based on the R statistical language with RStudio.
+Handouts, codes, and data can be found on the Github repository of the course: https://github.com/dgarcia-eu/FoundationsOfCSS   
+Exercises are based on the R statistical language with RStudio.
 
-Foundations of CSS Discord (only this course): https://discord.com/invite/HSCFE8fAdx
+Foundations of CSS Discord (only this course): https://discord.com/invite/HSCFE8fAdx Use it to ask for help!
 
 
 ---
@@ -140,23 +145,33 @@ Groups can have at most 4 students and must mix students with different backgrou
 
 - Research questions are very important! (more about that later)
 
-- Can be linked to project in Introduction to CSS. Great opportunity to start working together on a publishable paper or follow-up project in the programme
+- Can be linked to project in Introduction to CSS. Great opportunity to start working together on a follow-up project in the programme
 
-- We will post project ideas, you can pick from those, reproduce a previous paper, or bring your own idea
+- We will post project ideas, you can pick from those, reproduce a previous paper, or bring your own idea. 
 
 ---
 
 # Course assessment
 
-- The project grade is a combination:
+- The **group** project grade is a combination:
   - ten-minute presentation (50%)
   - six-page written report on the project (50%).
 
-- Extra points (max 20%) can be achieved by delivering two optional exercise solutions: 
+- **Individual** extra points (max 20%) can be achieved by delivering two optional exercise solutions: 
   - "Division of impact on Twitter" (deadline 17.11.2021)
   - "Assortativity among Swiss politicians on Twitter" (deadline 12.1.2022).
 
 - Lecture+Exercises (VU): projects are mandatory
+
+- **Questions?**
+
+---
+# Course feedback
+
+- Course Feedbackr: https://fbr.io/join/iuidc
+- Quizzes during lectures
+- General feedback question after every session. Please use it!
+.center[![:scale 40%](frame.png)]
 
 ---
 
