@@ -156,7 +156,7 @@ while (i<5)
 
 Your turn: 
 
-**2.1) Iterate over the numbers from 1 to 50 and print the ones divisible by 7.**
+**2.1) Iterate over the numbers from 1 to 50 and print the ones lower than 10 or larger than 40.**
 ```{r}
 #Your code here
 ```
